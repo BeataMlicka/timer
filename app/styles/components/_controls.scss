@@ -1,0 +1,32 @@
+.controls {
+    display: flex;
+    justify-content: center;
+    .button {
+        padding: .75rem 3rem;
+    }
+    .button:first-child {
+        margin-right: 1.5rem;
+    }
+}
+
+.button {
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background: linear-gradient(rgba(70, 44, 236, 1), rgba(231, 1, 224, .3));
+    border: none;
+    color: white;
+}
+
+.button:hover {
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background: linear-gradient(rgba(70, 44, 236, 1), rgba(231, 1, 224, .9));
+    border: none;
+    color: white;
+}
+
+.countdown-form input {
+    padding: 10px;
+    border-radius: 5px;
+    height: 55px;
+}

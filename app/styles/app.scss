@@ -1,0 +1,11 @@
+@import "base/_variables";
+//foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+//Components
+@import "base/_global.scss";
+@import "components/_navigation";
+@import "components/_clock";
+@import "components/_controls";
+@import "components/_page-title";

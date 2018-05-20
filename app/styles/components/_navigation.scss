@@ -1,0 +1,23 @@
+.top-bar,
+.top-bar ul {
+    background-color: $navyblue;
+}
+
+.top-bar {
+    border-bottom: 0.5px solid white;
+    .menu-text {
+        color: white;
+    }
+    a {
+        display: inline;
+        padding: 0;
+        color: $blue;
+        font-size: 1.4rem;
+    }
+    .active-link {
+        font-weight: bold;
+    }
+    a:hover {
+        color: $rose;
+    }
+}
